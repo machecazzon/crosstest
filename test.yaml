@@ -4,12 +4,8 @@ kind: XServiceFactory
 metadata:
   name: todo
   labels:
-    gruntwork.io/app-name: todo
-    gruntwork.io/app-team: todo
     app.kubernetes.io/name: todo
     app.kubernetes.io/instance: todo
-    app.kubernetes.io/managed-by: Helm
-    ayx: k8s-service
     x-crossplaned-version: todo
   annotations:
     argocd.argoproj.io/sync-wave: "-100"
